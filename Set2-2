@@ -1,0 +1,30 @@
+import numpy as np
+x_o = 0.3
+a = 0
+b = 0
+i = 0
+print("Exercice 2, a):Our function is f(x)=e^2x-3x-1 with f'(x)=2e^(2x)-3")
+def x_func(x):
+    return x - ((np.exp(2*x) - 3*x - 1) /(2*np.exp(2*x)-3))
+a = x_func(x_o)
+print("The equation is x_n+1 = x_n - f(x_n)/f'(x_n) with the Newton-Rhapson method")
+print("We iterate untill |x_n+1- x_n|<0.5*10^(-12) for a 12-digit accuracy"
+while (abs(b-a) > 0.5*10**(-12)):
+    print("x_n=",a)
+    if i != 0:
+        a = b
+    b = x_func(a)
+    print("x_(n+1)=",b)
+    i = i + 1
+    print("The number of repetitions is:",i)
+print("Exercise 2, b): Same method beging with x_0=0.203 for 3 iterations")
+x_0 = 0.0203
+for i in range(3):
+    print("x_n=",a)
+    if i != 0:
+        a = b
+    b = x_func(a)
+    print("x_(n+1)=",b)
+    i = i + 1
+    print("The number of repetitions is:",i)
+print("End")
