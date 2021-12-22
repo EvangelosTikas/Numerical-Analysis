@@ -1,11 +1,19 @@
 import numpy as np
-import matplotlib.pyplot as plt
-import scipy.integrate as spi
-#z = np.linspace(0, 1, 10)
 
-f1= lambda w: 10 * np.exp(-50 * abs(w)) - 0.01 / ((w - 0.5) ** 2 + 0.001) + 5 * np.sin(5 * w)
-#I1 = spi.simps(f1 , z)
-#print(I1)
+from scipy import integrate
+z = np.linspace(-1, 1, 2551)
+
+def f1(w):
+    return 10 * np.exp(-50 * abs(w)) - 0.01 / ((w - 0.5) ** 2 + 0.001) + 5 * np.sin(5 * w)
+
+myf1= f1(z)
+I1 = integrate.simps( myf1, z)
+print(I1)
+
+
+#f1= lambda w: 10 * np.exp(-50 * abs(w)) - 0.01 / ((w - 0.5) ** 2 + 0.001) + 5 * np.sin(5 * w)
+
+
 def simpson(f,a,b,N=50):
     '''Approximate the integral of f(x) from a to b by Simpson's rule.
 
@@ -41,5 +49,6 @@ def simpson(f,a,b,N=50):
     return S
 
 
-I2  = simpson(f1 , -1, 1, 10)
+I2  = simpson(f1 , -1, 1, 2550)
 print(I2)
+
