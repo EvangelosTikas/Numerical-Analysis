@@ -40,9 +40,9 @@ Source: https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods
 ## Euler Method for solving differential equation
 Difficulty Level : Easy
 Given a differential equation dy/dx = f(x, y) with initial condition y(x0) = y0. Find its approximate solution using Euler method.
-Euler Method : 
+[Euler Method] : 
 In mathematics and computational science, the Euler method (also called forward 
-Euler method) is a first-order numerical procedurefor solving ordinary differential 
+<p>Euler method is a first-order numerical procedure for solving ordinary differential 
 equations (ODEs) with a given initial value. 
 Consider a differential equation dy/dx = f(x, y) with initialcondition y(x0)=y0 
 then successive approximation of this equation can be given by: 
@@ -107,3 +107,4 @@ Main applications, tests, tutorials and any exercises involved in MSc Electronic
 [researchgate]: https://www.researchgate.net/profile/Evangelos-Tikas
 
 [NumericalMethodsPhysicsWithPython]: https://github.com/niksterg/NumericalMethodsPhysicsWithPython
+[Euler Method]: https://en.wikipedia.org/wiki/Euler_method
