@@ -1,8 +1,7 @@
 # Numerical-Analysis
 Exercises using Numerical Analysis Methods with python, numpy, sci-py, sympy and more packages for solving, printing and plotting functions and Numerical
-Analysis methods. Based on the subject [course], Numerical Analysis of Aristotle University of Thessaloniki, Dept. of Physics (B.Sc.) [physics].
-
-
+Analysis methods. Based on the [course], Numerical Analysis of Aristotle University of Thessaloniki, Dept. of Physics (B.Sc.) [physics]. Usefull information can be obtained 
+through the [NumAnalysis-course], forked by Proff. Nikos Stergioulas.
 
 
 
@@ -16,7 +15,7 @@ Given following inputs,
 > Initial value of y, i.e., y(0)
 Thus we are given below.
 
-\frac{\mathrm{dy} }{\mathrm{d} x} = f(x, y),y(0)= y_o      
+     
 The task is to find value of unknown function y at a given point x.
 The Runge-Kutta method finds approximate value of y for a given x. Only first order ordinary differential equations can be solved by using the Runge Kutta 4th order method.
 Below is the formula used to compute next value yn+1 from previous value yn. The value of n are 0, 1, 2, 3, ….(x – x0)/h. Here h is step height and xn+1 = x0 + h
@@ -96,6 +95,8 @@ Main applications, tests, tutorials and any exercises involved in MSc Electronic
 > [course]: https://www.physics.auth.gr/courses/167
  
 > [physics]: https://www.physics.auth.gr/courses/167
+
+[NumAnalysis-course]: https://github.com/niksterg/NumAnalysis-course
       
 <br>
 
