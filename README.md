@@ -1,7 +1,7 @@
 # Numerical-Analysis
 Exercises using Numerical Analysis Methods with python, numpy, sci-py, sympy and more packages for solving, printing and plotting functions and Numerical
 Analysis methods. Based on the [course], Numerical Analysis of Aristotle University of Thessaloniki, Dept. of Physics (B.Sc.) [physics]. Usefull information can be obtained 
-through the [NumAnalysis-course], forked by Proff. Nikos Stergioulas.
+through the [NumAnalysis-course], forked by Proff. Nikos Stergioulas. more information, additional tests and tutorials can be obtained through [NumericalMethodsPhysicsWithPython].
 
 
 
@@ -105,3 +105,5 @@ Main applications, tests, tutorials and any exercises involved in MSc Electronic
 [instagram]: https://www.instagram.com/vaggelis_tikas/
 [linkedin]: https://www.linkedin.com/notifications/
 [researchgate]: https://www.researchgate.net/profile/Evangelos-Tikas
+
+[NumericalMethodsPhysicsWithPython]: https://github.com/niksterg/NumericalMethodsPhysicsWithPython
