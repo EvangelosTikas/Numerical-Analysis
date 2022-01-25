@@ -1,6 +1,6 @@
 # Numerical-Analysis
 Exercises using Numerical Analysis Methods with python, numpy, sci-py, sympy and more packages for solving, printing and plotting functions and Numerical
-Analysis methods. Based on the subject Numerical Analysis of Aristotle University of Thessaloniki, Dept. of Physics (B.Sc.) .
+Analysis methods. Based on the subject [course], Numerical Analysis of Aristotle University of Thessaloniki, Dept. of Physics (B.Sc.) [physics].
 
 
 
@@ -33,7 +33,8 @@ The formula basically computes next value yn+1 using current yn plus weighted av
 
 > k4 is the increment based on the slope at the end of the interval, using y + hk3.
 
-> The method is a fourth-order method, meaning that the local truncation error is on the order of O(h5), while the total accumulated error is order O(h4).
+  The method is a fourth-order method, meaning that the local truncation error is on the order of O(h5), 
+  while the total accumulated error is order O(h4).
 Source: https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods
 
 
@@ -48,11 +49,11 @@ Consider a differential equation dy/dx = f(x, y) with initialcondition y(x0)=y0
 then successive approximation of this equation can be given by: 
  
 
-> y(n+1) = y(n) + h * f(x(n), y(n)) 
-where h = (x(n) – x(0)) / n 
-h indicates step size. Choosing smaller 
-values of h leads to more accurate results 
-and more computation time. 
+  y(n+1) = y(n) + h * f(x(n), y(n)) 
+  where h = (x(n) – x(0)) / n 
+  h indicates step size. Choosing smaller 
+  values of h leads to more accurate results 
+  and more computation time. 
  
 
 Example : 
@@ -74,3 +75,32 @@ Example :
     y(0.025) = 1.025.
     Similarly we can calculate y(0.050), y(0.075), ....y(0.1).
     y(0.1) = 1.11167
+    
+    
+    
+    
+    
+    
+ - 📫 How to reach me:
+
+> [facebook]
+
+> [instagram]
+
+> [linkedin]
+
+> [researchgate]
+
+Main applications, tests, tutorials and any exercises involved in MSc Electronics, Physics AUTh!
+
+> [course]: https://www.physics.auth.gr/courses/167
+ 
+> [physics]: https://www.physics.auth.gr/courses/167
+      
+<br>
+
+[website]: https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/?ref=leftbar-rightbar
+[facebook]: https://www.facebook.com/vagelis.tikas/
+[instagram]: https://www.instagram.com/vaggelis_tikas/
+[linkedin]: https://www.linkedin.com/notifications/
+[researchgate]: https://www.researchgate.net/profile/Evangelos-Tikas
