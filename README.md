@@ -47,12 +47,13 @@ equations (ODEs) with a given initial value.
 Consider a differential equation dy/dx = f(x, y) with initialcondition y(x0)=y0 
 then successive approximation of this equation can be given by: </p>
  
-
-  y(n+1) = y(n) + h * f(x(n), y(n)) 
-  where h = (x(n) – x(0)) / n 
-  h indicates step size. Choosing smaller 
-  values of h leads to more accurate results 
-  and more computation time. 
+      y(n+1) = y(n) + h * f(x(n), y(n)) 
+     where h = (x(n) – x(0)) / n 
+     h indicates step size. Choosing smaller 
+     values of h leads to more accurate results 
+     and more computation time. 
+ 
+  
  
 
 Example : 
